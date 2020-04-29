@@ -1,0 +1,47 @@
+* {
+  font-size: 1px;
+  font-family: 'Muli', sans-serif;
+}
+
+html {
+  height: 100%;
+}
+
+
+        /*HEADER SECTION*/
+
+header {
+  height: 85rem;
+  align-items: center;
+  display: inline-flex;
+  justify-content: space-between;
+  margin: 0 30rem;
+  position: fixed;
+  width: 100%;
+  max-width: 94.3%;
+}
+
+header p {
+  font-size: 16rem;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-container p {
+  margin-left: 30rem;
+  text-decoration: none;
+}
+
+.header-container i {
+  font-size: 24rem;
+  font-weight: bold;
+  margin-left: 10rem;
+}
+
+a {
+  text-decoration: none;
+  color: black
+}
