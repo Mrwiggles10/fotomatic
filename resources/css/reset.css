@@ -7,6 +7,11 @@ html {
   height: 100%;
 }
 
+/*MOBILE SECTION*/
+.tablet {
+  display: none;
+}
+
 
         /*HEADER SECTION*/
 
@@ -44,4 +49,27 @@ header p {
 a {
   text-decoration: none;
   color: black
+}
+
+/*HEADER TABLET*/
+@media only screen and (min-width: 500px) and (max-width: 1024px) {
+
+  * { 
+    font-size: 1.2px;
+  }
+
+  .tablet {
+    display: block;
+  }
+
+.tablet p {
+  font-size: 16rem;
+  background-color: chartreuse;
+  padding: 4rem 10rem;
+  border-radius: 4rem; 
+}
+
+.tablet a {
+}
+
 }
