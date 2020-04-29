@@ -7,6 +7,10 @@ html {
   height: 100%;
 }
 
+body{
+  margin: 0;
+}
+
 /*MOBILE SECTION*/
 .tablet {
   display: none;
@@ -18,16 +22,15 @@ html {
 header {
   height: 85rem;
   align-items: center;
-  display: inline-flex;
+  display: flex;
   justify-content: space-between;
-  margin: 0 30rem;
   position: fixed;
   width: 100%;
-  max-width: 94.3%;
 }
 
 header p {
   font-size: 16rem;
+  margin-left: 30rem;
 }
 
 .header-container {
@@ -38,12 +41,14 @@ header p {
 .header-container p {
   margin-left: 30rem;
   text-decoration: none;
+
 }
 
 .header-container i {
   font-size: 24rem;
   font-weight: bold;
   margin-left: 10rem;
+  margin-right: 30rem;
 }
 
 a {
@@ -66,10 +71,12 @@ a {
   font-size: 16rem;
   background-color: chartreuse;
   padding: 4rem 10rem;
-  border-radius: 4rem; 
+  border-radius: 4rem;
+  margin-right: 12rem; 
 }
 
-.tablet a {
+.header-container i {
+  margin-right: 0;
 }
 
 }
