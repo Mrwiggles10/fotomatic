@@ -11,8 +11,16 @@ body{
   margin: 0;
 }
 
-/*MOBILE SECTION*/
+        /*MOBILE SECTION*/
 .tablet {
+  display: none;
+}
+
+.phone-container {
+  display: none;
+}
+
+.phone {
   display: none;
 }
 
@@ -57,7 +65,7 @@ a {
 }
 
 /*HEADER TABLET*/
-@media only screen and (min-width: 500px) and (max-width: 1024px) {
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
 
   * { 
     font-size: 1.2px;
@@ -78,5 +86,45 @@ a {
 .header-container i {
   margin-right: 0;
 }
+
+}
+
+/*HEADER PHONE*/
+@media only screen and (max-width:505px) {
+
+* {
+  font-size: 1.55px;
+}
+
+.desktop {
+  display:none;
+}
+
+.phone-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 8px 15px;
+}
+
+.phone {
+  display: block;
+  font-size: 16rem;
+}
+
+
+.tablet {
+  display:block;
+}
+
+.tablet p {
+    display: block;
+    font-size: 16rem;
+    background-color: chartreuse;
+    padding: 4rem 10rem;
+    border-radius: 4rem;
+    margin: 0px;
+  }
+
 
 }
